@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Noto Sans', sans-serif;
+}
+.nav-link {
+  padding: 18px !important;
+}
+.navbar {
+  box-shadow: 1px 1px 4px #b8b9bb4a;
+}
+
+.list-group-item{
+  border:0px;
+  padding:5px;
+}
+.price{
+  font-size:72px;
+}
+.currency{
+  font-size:25px;
+  position:relative;
+  top:-30px;
+}
+.card{
+  width:350px;
+  transition:all ease-in-out 0.5s;			
+}
+.card:hover{
+  transform:scale(1.05);
+  transition:all ease-in-out 0.5s;
+}
+/* Footer css start */
+.page-footer{
+  background: rgb(234, 234, 234);
+  color: #5d5d5f;
+}
+.list-text a{
+  color: #5d5d5f;
+}
+.list-text a:hover{
+  text-decoration:none;
+}
+/* Footer css end */
